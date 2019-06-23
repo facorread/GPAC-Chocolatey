@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>gpac</id>
+    <version>0.7.0</version>
+    <title>GPAC</title>
+    <authors>Jean Le Feuvre</authors>
+    <owners>Fabio A. Correa Duran</owners>
+    <docsUrl>https://gpac.wp.imt.fr/mp4box/mp4box-documentation/</docsUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/7303020?s=64</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/gpac/gpac/master/COPYING</licenseUrl>
+    <projectUrl>https://gpac.wp.imt.fr</projectUrl>
+    <bugTrackerUrl>https://github.com/gpac/gpac/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/gpac/gpac</projectSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MPEG-4 systems framework, SDK, and command line tools (MP4Box, MP4Client, MP42TS, MP42AVI, DashCast). GPAC stands for  GPAC Project on Advanced Content.</description>
+    <summary>MPEG-4 Systems Framework, SDK, and command line tools</summary>
+    <releaseNotes>https://raw.githubusercontent.com/gpac/gpac/master/Changelog</releaseNotes>
+    <copyright>Copyright 2000-2019 Jean Le Feuvre</copyright>
+    <tags>library foss cross-platform multimedia audio video mp3 dvd avi media player</tags>
+    <packageSourceUrl>https://github.com/facorread/GPAC-Chocolatey</packageSourceUrl>
+  </metadata>
+</package>
