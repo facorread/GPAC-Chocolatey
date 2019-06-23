@@ -3,18 +3,13 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-WinWait, GPAC Framework , , 120
-WinActivate
+WinWait, GPAC Framework, , 120
+WinActivate, GPAC Framework
 Sleep 1000
 Send !N!A
+; Here we minimize the window to help it recover focus
 WinMinimize, GPAC Framework
-WinRestore, GPAC Framework
-WinActivate
+WinActivate, GPAC Framework
 Send +{Tab}{Space}!N!N!I
-trial := 60
-While(WinExist("GPAC Framework") and (trial > 0))
-{
-  Sleep 10000
-  Send !F
-  --trial
-}
+WinWait, GPAC Framework, Finish, 600
+Send !F
