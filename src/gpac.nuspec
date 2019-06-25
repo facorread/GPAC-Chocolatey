@@ -7,7 +7,7 @@
     <authors>Jean Le Feuvre</authors>
     <owners>Fabio A. Correa Duran</owners>
     <docsUrl>https://gpac.wp.imt.fr/mp4box/mp4box-documentation/</docsUrl>
-    <iconUrl>https://github.com/gpac/gpac/raw/master/applications/osmo4_ios/Resources/icon_retina.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/gpac/gpac/86d072b6a13baa1a4a90168098a0f8354c24d8cf/applications/osmo4_ios/Resources/icon_retina.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/gpac/gpac/master/COPYING</licenseUrl>
     <projectUrl>https://gpac.wp.imt.fr</projectUrl>
     <bugTrackerUrl>https://github.com/gpac/gpac/issues</bugTrackerUrl>
