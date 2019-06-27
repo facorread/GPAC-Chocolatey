@@ -1,14 +1,14 @@
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$ahkFile        = Join-Path $toolsDir "GPACinstall.ahk"
+$ahkFile        = Join-Path $toolsDir "install.ahk"
 
 $packageArgs = @{
   PackageName    = 'gpac' 
   FileType       = 'exe' 
-  Url            = 'https://download.tsi.telecom-paristech.fr/gpac/release/0.7.0/gpac-0.7.0-rev0-gbd5c9af-master-win32.exe'
-  Checksum       = '151e59b85711213edb907a4e7f82362b433663ae6f238c610a85325e39e7cab4e27e4c9ca285c29be0e007c388cd59cc32ba7d2fa6bbd51bd3cc24b03b774d44'
+  Url            = 'https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-0.8.0-rev1-gc1990d5c-master-win32.exe'
+  Checksum       = '32934942fd9308207a5ae345dc255d8ca987d966660821a7048c08bb0f73fd52b6d907ece6cd1da4cc63590ce16f51905a79516e08f798212cd2b0ac77f37cb2'
   ChecksumType   = 'sha512'
-  Url64          = 'https://download.tsi.telecom-paristech.fr/gpac/release/0.7.0/gpac-0.7.0-rev0-gbd5c9af-master-x64.exe'
-  Checksum64     = '9b2199701192d06b2270d959b624df36688127156b3fb08de1b99748ea9f8d6b03e654d09fd053f14f05083b932c639cc2091c193dba2404d9d8e14dbf6cfc87'
+  Url64          = 'https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-0.8.0-rev1-gc1990d5c-master-x64.exe'
+  Checksum64     = '92259d245a7b3940dddb22a0ab9898d8761398dc3b09e3753982dd424cf3dffc712ee850ab9ec080c80f8b6af0a718e633bd26ac4d12d8707716aee7ef400b32'
   ChecksumType64 = 'sha512'
   }
   
