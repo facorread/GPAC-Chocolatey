@@ -1,16 +1,13 @@
-$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$ahkFile        = Join-Path $toolsDir "install.ahk"
-
 $packageArgs = @{
   PackageName    = 'gpac' 
   FileType       = 'exe' 
-  Url            = 'https://download.tsi.telecom-paristech.fr/gpac/release/0.8.0/gpac-0.8.0-rev1-gc1990d5c-master-win32.exe'
-  Checksum       = '32934942fd9308207a5ae345dc255d8ca987d966660821a7048c08bb0f73fd52b6d907ece6cd1da4cc63590ce16f51905a79516e08f798212cd2b0ac77f37cb2'
+  Url            = 'https://download.tsi.telecom-paristech.fr/gpac/release/1.0.0/gpac-1.0.0-rev0-g74780879-master-win32.exe'
+  Checksum       = '2351c8a3c390811b081eec7be78aa00d6fc4449ff5588aac34c074cbbc3dc3ece4ff7b7817d6e30e4e3a2da24e1c0a6e013e206206506dce392f24fe6a6539e8'
   ChecksumType   = 'sha512'
-  Url64          = 'https://download.tsi.telecom-paristech.fr/gpac/release/0.8.0/gpac-0.8.0-rev1-gc1990d5c-master-x64.exe'
-  Checksum64     = '92259d245a7b3940dddb22a0ab9898d8761398dc3b09e3753982dd424cf3dffc712ee850ab9ec080c80f8b6af0a718e633bd26ac4d12d8707716aee7ef400b32'
+  Url64          = 'https://download.tsi.telecom-paristech.fr/gpac/release/1.0.0/gpac-1.0.0-rev0-g74780879-master-x64.exe'
+  Checksum64     = '84343cf14d1fb1af26ada6b37b6522522d8a5a9278b26e1c857f6a0020f79c63317deb68888796be4658f73290d99035ffa99c5bc07ce4f6727e8a3eea6f256e'
   ChecksumType64 = 'sha512'
-  }
+  SilentArgs     = '/S'
+}
   
-Start-Process AutoHotKey $ahkFile
 Install-ChocolateyPackage @packageArgs

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>gpac</id>
-    <version>0.8.0.20190812</version>
+    <version>1.0.0</version>
     <title>GPAC</title>
     <authors>Jean Le Feuvre</authors>
     <owners>Fabio A. Correa Duran</owners>
@@ -10,17 +10,14 @@
     <projectUrl>https://gpac.wp.imt.fr</projectUrl>
     <iconUrl>https://rawcdn.githack.com/gpac/gpac/86d072b6a13baa1a4a90168098a0f8354c24d8cf/applications/osmo4_ios/Resources/icon_retina.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>MPEG-4 systems framework, SDK, and command line tools (MP4Box, MP4Client, MP42TS, MP42AVI, DashCast). GPAC stands for  GPAC Project on Advanced Content.</description>
+    <description>MPEG-4 systems framework, SDK, and command line tools (MP4Box, MP4Client, MP42AVI). GPAC stands for  GPAC Project on Advanced Content.</description>
     <summary>MPEG-4 Systems Framework, SDK, and command line tools</summary>
-    <releaseNotes>https://raw.githubusercontent.com/gpac/gpac/master/Changelog</releaseNotes>
-    <copyright>Copyright 2000-2019 Jean Le Feuvre</copyright>
+    <releaseNotes>https://github.com/gpac/gpac/releases</releaseNotes>
+    <copyright>Copyright 2000-2020 Jean Le Feuvre</copyright>
     <tags>library foss cross-platform multimedia audio video mp3 dvd avi media player</tags>
     <projectSourceUrl>https://github.com/gpac/gpac</projectSourceUrl>
     <packageSourceUrl>https://github.com/facorread/GPAC-Chocolatey</packageSourceUrl>
-    <docsUrl>https://gpac.wp.imt.fr/mp4box/mp4box-documentation/</docsUrl>
+    <docsUrl>https://github.com/gpac/gpac/wiki/MP4Box</docsUrl>
     <bugTrackerUrl>https://github.com/gpac/gpac/issues</bugTrackerUrl>
-    <dependencies>
-      <dependency id="autohotkey" version="1.1.30.03" />
-    </dependencies>
   </metadata>
 </package>
