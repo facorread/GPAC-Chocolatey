@@ -1,11 +1,11 @@
 $packageArgs = @{
   PackageName    = 'gpac' 
   FileType       = 'exe' 
-  Url            = 'http://download.tsi.telecom-paristech.fr/gpac/release/1.0.1/gpac-1.0.1-rev0-gd8538e8a-master-win32.exe'
-  Checksum       = '905ef2a0501a0a2fa8b350736676591c656de7779d1839c334192f3257cb8f7d23ec4e946c8b758c8e03730dcbbb2c70432846aae2123e58c48c1ceb5b595c29'
+  Url            = 'https://download.tsi.telecom-paristech.fr/gpac/release/2.2/gpac-2.2-rev0-gab012bbf-master-win32.exe'
+  Checksum       = '6D2DF5129A53A8E4E42B9FEA1E95A2267CB99FDEC4629FA98A606A9BEEE64DC8FF706DFE24DE868C7A3CA26B01BE2550A629C27C12975AC52F5703F92F41F2AC'
   ChecksumType   = 'sha512'
-  Url64          = 'http://download.tsi.telecom-paristech.fr/gpac/release/1.0.1/gpac-1.0.1-rev0-gd8538e8a-master-x64.exe'
-  Checksum64     = '975b08d71feb42e70eaee57aba922fc682fdbcddfbaf9418aeb91502dde166f90523fae52b03a439fe8d9d1da1666dc7d6778b7e169f0f8b3f2364a2f32aa464'
+  Url64          = 'https://download.tsi.telecom-paristech.fr/gpac/release/2.2/gpac-2.2-rev0-gab012bbf-master-x64.exe'
+  Checksum64     = '8A744EDCC5319DF0C983B7F637C915CF2489483662D75DED35DF86F8CCACE9BF1706B262B16A352A275E9AD1D640B9B192A387840B95BFD52FE5FA6304F3C184'
   ChecksumType64 = 'sha512'
   SilentArgs     = '/S'
 }
