@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>gpac</id>
-    <version>2.2.1</version>
+    <version>2.4.0</version>
     <title>GPAC</title>
     <authors>Jean Le Feuvre</authors>
     <owners>Fabio A. Correa Duran</owners>
@@ -13,7 +13,7 @@
     <description>MPEG-4 systems framework, SDK, and command line tools (MP4Box, MP4Client, MP42AVI). GPAC stands for  GPAC Project on Advanced Content.</description>
     <summary>MPEG-4 Systems Framework, SDK, and command line tools</summary>
     <releaseNotes>https://github.com/gpac/gpac/releases</releaseNotes>
-    <copyright>Copyright 2000-2020 Jean Le Feuvre</copyright>
+    <copyright>Copyright 2000-2024 Jean Le Feuvre</copyright>
     <tags>library foss cross-platform multimedia audio video mp3 dvd avi media player</tags>
     <projectSourceUrl>https://github.com/gpac/gpac</projectSourceUrl>
     <packageSourceUrl>https://github.com/facorread/GPAC-Chocolatey</packageSourceUrl>
